@@ -14,7 +14,7 @@ def cargarCerebro():
 	k.loadBrain("cerebro.brn")
 
 text1 = Text(v, height=20, width=30)
-photo=PhotoImage(file='robot.gif')
+photo=PhotoImage(file='./images/robot.gif')
 text1.insert(END,'\n')
 text1.image_create(END, image=photo)
 
