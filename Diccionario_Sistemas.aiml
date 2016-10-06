@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- BOT: Diccionario_Sistemas -->
+<aiml version="1.0"> 
+
+	<category> 
+		<pattern>HOLA</pattern>
+		<template> 
+			<random> 
+				<li>Hola como estas</li>
+				<li>Como va todo</li>
+				<li>Buenas, como has estado</li>
+			</random>
+		</template>
+	</category>
+
+
+
+	<category> 
+		<pattern>BUENAS</pattern>
+		<template> 
+			<random> 
+				<li>Hola como estas</li>
+				<li>Como va todo</li>
+				<li>Buenas, como has estado</li>
+			</random>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>CHAO</pattern>
+		<template> 
+			<random>
+				<li>Chao que te vaya bien</li>
+				<li>Adios, ojala te haya agradado la informacion que te di</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category>
+		<pattern>ADIOS</pattern>
+		<template> 
+			<random>
+				<li>Chao que te vaya bien</li>
+				<li>Adios, ojala te haya agradado la informacion que te di</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* LLAMAS</pattern>
+		<template> 
+			<random>
+				<li>me llamo Bender</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>NOMBRE</pattern>
+		<template> 
+			<random>
+				<li>me llamo bot</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* DEDICAS</pattern>
+		<template> 
+			<random>
+				<li>Soy ingeniero de sistemas de la uptc, brindo informacion a las personas sobre esta carrera</li>
+				<li>Doy informacion a las personas de la carrera de ingenieria de sistemas</li>
+			</random>
+		</template>
+	</category>
+
+
+
+	<category> 
+		<pattern>* PROFESION</pattern>
+		<template> 
+			<random>
+				<li>Soy ingeniero de sistemas, brindo informacion a las personas sobre esta carrera</li>
+				<li>Doy informacion a las personas de la carrera de ingenieria de sistemas</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* INFORMACION</pattern>
+		<template> 
+			<random>
+				<li>Te puedo brindar informacion sobre: Base de datos, Programacion, Inteligencia computacional, Redes</li>
+				<li>Yo te puedo guiar en temas como: Base de datos, Programacion, Inteligencia computacional, Redes</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* INTERESANTE</pattern>
+		<template> 
+			<random>
+				<li>Claro, puedes preguntarme lo que quieras referente a los temas que te dije</li>
+				<li>si, la carrera ingenieria de sistemas es muy interesante</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* DATABASES</pattern>
+		<template> 
+			<random>
+				<li> 1. te puedo decir que es la materia bases de datos
+					2. definir que es una base de datos
+					3. decirte que es un gestor de bases de datos
+					4. gestores de bases de datos
+					5. que es una consulta
+					6. que es un modelo entidad-relacion
+				</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category>
+		<pattern>* MATBASES</pattern>
+		<template> 
+			<random>
+				<li> 
+					MATERIA BASES DE DATOS:
+
+					La materia de bases de datos es fundamental en la formación de los ingenieros técnicos en informática de gestión. Estos titulados serán quienes gestionen y exploten los sistemas informáticos de empresas y organizaciones, siendo la base de datos una parte clave de estos sistemas. Cada vez más, los sistemas de gestión de bases de datos proporcionan herramientas que dan soporte a todo el ciclo de vida de los sistemas de información, por lo que su estudio resulta imprescindible.
+					
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category>
+		<pattern>* BASES</pattern>
+		<template> 
+			<random>
+				<li> 
+					BASES DE DATOS:
+
+					Se le llama base de datos a los bancos de información que contienen datos relativos a diversas temáticas y categorizados de distinta manera, pero que comparten entre sí algún tipo de vínculo o relación que busca ordenarlos y clasificarlos en conjunto.
+
+					Una base de datos puede ser de diverso tipo, desde un pequeño fichero casero para ordenar libros y revistas por clasificación alfabética hasta una compleja base que contenga datos de índole gubernamental en un Estado u organismo internacional. Recientemente, el término base de datos comenzó a utilizarse casi exclusivamente en referencia a bases construidas a partir de software informático, que permiten una más fácil y rápida organización de los datos. Las bases de datos informáticas pueden crearse a partir de software o incluso de forma online usando Internet. En cualquier caso, las funcionalidades disponibles son prácticamente ilimitadas.
+				</li>
+				<li> 
+					BASES DE DATOS:
+
+					Se define una base de datos como una serie de datos organizados y relacionados entre sí, los cuales son recolectados y explotados por los sistemas de información de una empresa o negocio en particular.
+				</li> 
+
+				<li> 
+					BASES DE DATOS:
+
+					Una base de datos es una colección de información organizada de forma que un programa de ordenador pueda seleccionar rápidamente los fragmentos de datos que necesite. Una base de datos es un sistema de archivos electrónico.
+					Las bases de datos tradicionales se organizan por campos, registros y archivos.
+				</li> 
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* GESTOR</pattern>
+		<template> 
+			<random>
+				<li> 
+					GESTOR DE BASES DE DATOS:
+
+					Un Sistema de Gestión de Bases de Datos es un conjunto de programas que permiten el almacenamiento, modificación y extracción de la información en una base de datos, además de proporcionar herramientas para añadir, borrar, modificar y analizar los datos. 
+				</li>
+
+				<li> 
+					GESTOR DE BASES DE DATOS:
+
+					Un sistema de gestión de bases de datos (SGBD) es un conjunto de programas que permiten el almacenamiento, modificación y extracción de la información en una base de datos, además de proporcionar herramientas para añadir, borrar, modificar y analizar los datos. Los usuarios pueden acceder a la información usando herramientas específicas de interrogación y de generación de informes, o bien mediante aplicaciones al efecto.
+
+					Estos sistemas también proporcionan métodos para mantener la integridad de los datos, para administrar el acceso de usuarios a los datos y para recuperar la información si el sistema se corrompe. Permiten presentar la información de la base de datos en variados formatos. La mayoría incluyen un generador de informes. También pueden incluir un módulo gráfico que permita presentar la información con gráficos y tablas.
+				</li>
+
+				<li> 
+					GESTOR DE BASES DE DATOS:
+
+					Un Sistema Gestor de Bases de Datos (SGBD) o DBMA (DataBase Management System) es una colección de programas cuyo objetivo es servir de interfaz entre la base de datos, el usuario y las aplicaciones. Se compone de un lenguaje de definición de datos, de un lenguaje de manipulación de datos y de un lenguaje de consulta. Un SGBD permiten definir los datos a distintos niveles de abstracción y manipular dichos datos, garantizando la seguridad e integridad de los mismos.
+				</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>* GESTORES</pattern>
+		<template> 
+			<random>
+				<li>
+					GESTORES DE BASES DE DATOS:
+
+					1. Mysql
+					2. Oracle
+					3. Microsoft SQL server
+					4. Microsoft Access
+					5. Visual FoxPro
+					6. PostgreSQL
+					7. BB2
+				</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category>
+		<pattern>* CONSULTAS</pattern>
+		<template> 
+			<random>
+				<li> 
+					DEFINICION DE CONSULTA:
+
+					una consulta es el método para acceder a los datos en las bases de datos. Con las consultas se puede modificar, borrar, mostrar y agregar datos en una base de datos. Para esto se utiliza un lenguaje de consultas. El lenguaje de consultas a base de datos más utilizado es el SQL.
+				</li>
+
+				<li> 
+
+					DEFINCION DE CONSULTA:
+
+					Las consultas son las que verdaderamente hacen el trabajo en una base de datos. Pueden realizar numerosas funciones diferentes. Su función más común es recuperar datos específicos de las tablas. Los datos que desea ver suelen estar distribuidos por varias tablas y, gracias a las consultas, puede verlos en una sola hoja de datos. Además, puesto que normalmente no desea ver todos los registros a la vez, las consultas le permiten agregar criterios para "filtrar" los datos hasta obtener solo los registros que desee. Las consultas a menudo sirven de origen de registros para formularios e informes.
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category>
+		<pattern>* ENTIDAD</pattern>
+		<template> 
+			<random>
+				<li> 
+					MODELO ENTIDAD RELACION:
+
+					Un diagrama o modelo entidad-relación es una herramienta para el modelado de datos que permite representar las entidades relevantes de un sistema de información así como sus interrelaciones y propiedades.
+				</li>
+
+				<li> 
+					MODELO ENTIDAD RELACION:
+
+					Un diagrama o modelo entidad-relación (a veces denominado por sus siglas en inglés, E-R "Entity relationship", o del español DER "Diagrama de Entidad Relación") es una herramienta para el modelado de datos que permite representar las entidades relevantes de un sistema de información así como sus interrelaciones y propiedades.
+				</li>
+
+				<li> 
+					MODELO ENTIDAD RELACION:
+
+					Es un tipo de modelo de datos conceptual de alto nivel que se emplea en el diseño de las base de datos relacionales. El modelo entidad-relación muestra la estructura de la base de datos empleando todo tipo de herramientas conceptuales. 
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+
+	<category> 
+		<pattern>* DEFPROGRAMACION</pattern>
+		<template> 
+			<random>
+				<li>
+					1. te puedo decir que es la programacion
+					2. que es un constructor
+					3. decirte cuales son los lenguajes de programacion mas utilizados
+					4. tipos de datos
+					5. diagrama de clases 
+					6. que es un metodo
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* PROGRAMACION</pattern>
+		<template> 
+			<random>
+				<li> 
+					PROGRAMACION:
+
+					La programación informática, acortada como programación, es el proceso de diseñar, codificar, depurar y mantener el código fuente de programas computacionales. El código fuente es escrito en un lenguaje de programación. El propósito de la programación es crear programas que exhiban un comportamiento deseado. El proceso de escribir código requiere frecuentemente conocimientos en varias áreas distintas, además del dominio del lenguaje a utilizar, algoritmos especializados y lógica formal. Programar no involucra necesariamente otras tareas tales como el análisis y diseño de la aplicación (pero sí el diseño del código), aunque sí suelen estar fusionadas en el desarrollo de pequeñas aplicaciones.
+				</li>
+
+				<li> 
+					PROGRAMACION:
+
+					Programación es el proceso a través del cual un programa o aplicación informática es desarrollado.
+					Se conoce como programación en ciencias de la computación a los pasos que se abordan para crear el código fuente de un programa informático. De acuerdo con estos pasos, el código se escribe, se prueba y se perfecciona.
+
+				</li>
+
+				<li> 
+					PROGRAMACION:
+
+					Acción de programar. En computación, la programación es el proceso de escribir -en un lenguaje de programación- el código fuente de un software.
+					Un término más amplio de programación puede incluir no sólo a escribir, sino a analizar, probar, depurar y mantener el código programado.
+					El fin último de la programación es crear programas o software, que luego será ejecutado por otro programa o directamente por el hardware de la computadora.
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* CONSTRUCTOR</pattern>
+		<template> 
+			<random>
+				<li> 
+					CONSTRUCTOR:
+
+					En programación orientada a objetos (POO), un constructor es una subrutina cuya misión es inicializar un objeto de una clase. En el constructor se asignan los valores iniciales del nuevo objeto.
+
+					Se utiliza para crear tablas de clases virtuales y poder así desarrollar el polimorfismo, una de las herramientas de la programación orientada a objetos. Al utilizar un constructor, el compilador determina cual de los objetos va a responder al mensaje (virtual) que hemos creado. Tiene un tipo de acceso, un nombre y un paréntesis.
+				</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* LENGUAJE</pattern>
+		<template> 
+			<random>
+				<li> 
+					LENGUAJE DE PROGRAMACION:
+
+					Un lenguaje de programación" es un lenguaje diseñado para describir el conjunto de acciones consecutivas que un equipo debe ejecutar. Por lo tanto, un lenguaje de programación es un modo práctico para que los seres humanos puedan dar instrucciones a un equipo.
+
+					1. 	ADA	Tiempo real	Lenguaje compilado
+					2. 	BASIC	Programación para fines educativos	Lenguaje interpretado
+					3. 	C	Programación de sistema	Lenguaje compilado
+					4. 	C++	Programación de sistema orientado a objeto	Lenguaje compilado
+					5. 	Cobol	Administración	Lenguaje compilado
+					6. 	Fortran	Cálculo	Lenguaje compilado
+					7. 	Java	Programación orientada a Internet	Lenguaje intermediario
+					8. 	MATLAB	Cálculos matemáticos	Lenguaje interpretado
+					9. 	Cálculos matemáticos	Cálculos matemáticos	Lenguaje interpretado
+					10. LISP	Inteligencia artificial	Lenguaje intermediario
+					11. Pascal	Educación	Lenguaje compilado
+					12. PHP	Desarrollo de sitios web dinámicos	Lenguaje interpretado
+					13. Inteligencia artificial	Inteligencia artificial	Lenguaje interpretado
+					14. Perl	Procesamiento de cadenas de caracteres	Lenguaje interpretado
+
+				</li>
+
+				<li> 
+					LENGUAJE DE PROGRAMACION:
+
+					Un lenguaje de programación es un lenguaje formal diseñado para expresar procesos que pueden ser llevados a cabo por máquinas como las computadoras.Pueden usarse para crear programas que controlen el comportamiento físico y lógico de una máquina, para expresar algoritmos con precisión, o como modo de comunicación humana.
+
+					Está formado por un conjunto de símbolos y reglas sintácticas y semánticas que definen su estructura y el significado de sus elementos y expresiones. Al proceso por el cual se escribe, se prueba, se depura, se compila (de ser necesario) y se mantiene el código fuente de un programa informático se le llama programación.También la palabra programación se define como el proceso de creación de un programa de computadora, mediante la aplicación de procedimientos lógicos, a través de los siguientes pasos:
+
+					1. El desarrollo lógico del programa para resolver un problema en particular.
+					2. Escritura de la lógica del programa empleando un lenguaje de programación específico (codificación del programa).
+					3. Ensamblaje o compilación del programa hasta convertirlo en lenguaje de máquina.
+					4. Prueba y depuración del programa.
+					5. Desarrollo de la documentación.
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* DATOS</pattern>
+		<template> 
+			<random>
+				<li> 
+					DATOS:
+
+					EL TIPO DE DATO ENTERO:
+					El tipo de datos entero es un tipo simple, y dentro de estos, es ordinal. Al declarar una variable de tipo entero, estás creando una variable numérica que puede tomar valores positivos o negativos, y sin parte decimal.
+
+					EL TIPO DE DATO BOOLEAN:
+					El tipo de datos lógico es el que te permite usar variables que disponen sólo de dos posibles valores: cierto o falso. Debido a esto, su utilidad salta a la vista, y no es otra que variables de chequeo. Nos sirven para mantener el estado de un objeto.
+
+					TIPOS DE DATOS CHAR Y STRING:
+					Con el tipo carácter puedes tener objetos que representen una letra, un número, etc. Es decir, puedes usar variables o constantes que representen un valor alfanumérico. Pero ojo, cada variable sólo podrá almacenar un carácter.
+
+					Sin embargo, con las cadenas de caracteres (strings) puedes contener en una sóla variable más de un carácter. Por ejemplo, puedes tener en una variable tu nombre.
+
+				</li>
+
+				<li> 
+					DATOS:
+
+					Tipo de dato informático es un atributo de una parte de los datos que indica al ordenador algo sobre la clase de datos sobre los que se va a procesar. Esto incluye imponer restricciones en los datos, como qué valores pueden tomar y qué operaciones se pueden realizar
+
+				</li>
+
+				<li> 
+					DATOS:
+
+					1. byte
+					2. short
+					3. int
+					4. long
+					5. float
+					6. double
+					7. char
+					8. boolean
+
+				</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* DIAGRAMA</pattern>
+		<template> 
+			<random>
+				<li> 
+					DIAGRAMA DE CLASES:
+
+					un diagrama de clases en Lenguaje Unificado de Modelado (UML) es un tipo de diagrama de estructura estática que describe la estructura de un sistema mostrando las clases del sistema, sus atributos, operaciones (o métodos), y las relaciones entre los objetos.
+				</li>
+
+				<li> 
+					DIAGRAMA DE CLASES:
+
+					Los diagramas de clase son el pilar básico del modelado con UML, siendo utilizados tanto para mostrar lo que el sistema puede hacer (análisis), como para mostrar cómo puede ser construido (diseño).
+				</li>
+
+				<li> 
+					DIAGRAMA DE CLASES:
+
+					Un diagrama de clases es una representación gráfica que sirve para representar la estructura de un sistema que será implementado utilizando un lenguaje orientado a objetos. Los diagramas de clases se realizan en la fase de diseño del software después de la fase de requisitos (más información sobre las fases de la ingeniería del software aquí). La idea de estos diagramas es representar las clases que tendrá el sistema así como su contenido y sus relaciones con otras clases. La implementación de sistemas medianamente grandes no sería abordable sin este tipo de diagramas, y aunque fuera abordable se tardaría mucho más y sería más fácil cometer errores.
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* METODO</pattern>
+		<template> 
+			<random>
+				<li> 
+					METODO:
+
+					Un método es un trozo de código que puede ser llamado o invocado por el programa principal o por otro método para realizar alguna tarea específica. El término método en Java es equivalente al de subprograma, rutina, subrutina, procedimiento o función en otros lenguajes de programación. El método es llamado por su nombre o identificador seguido por una secuencia de parámetros o argumentos (datos utilizados por el propio método para sus cálculos) entre paréntesis. Cuando el método finaliza sus operaciones, devuelve habitualmente un valor simple al programa que lo llama, que utiliza dicho valor de la forma que le convenga. El tipo de dato devuelto por la sentencia return debe coincidir con el tipo de dato declarado en la cabecera del método. 
+				</li>
+
+				<li> 
+					METODO:
+
+					En la programación orientada a objetos, un método es una subrutina cuyo código es definido en una clase y puede pertenecer tanto a una clase, como es el caso de los métodos de clase o estáticos, como a un objeto, como es el caso de los métodos de instancia. Análogamente a los procedimientos en los lenguajes imperativos, un método consiste generalmente de una serie de sentencias para llevar a cabo una acción, un juego de parámetros de entrada que regularán dicha acción o, posiblemente, un valor de salida (o valor de retorno) de algún tipo.
+
+				</li>
+
+				<li> 
+					METODO:
+
+					Un método es un bloque de código que contiene una serie de instrucciones. Los programas hacen que las instrucciones se ejecuten mediante una llamada al método y la especificación de los argumentos de método necesarios.
+
+				</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* INTELIGENCIA COMPUTACIONAL</pattern>
+		<template> 
+			<random>
+				<li>
+					1. te puedo decir que es inteligencia computacional
+					2. que son las redes neuronales
+					3. que es logica difusa
+					4. definir que es inteligencia artificial
+					5. maquina de turing
+
+				</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+
+
+	<category> 
+		<pattern>* INTELIGENCIA</pattern>
+		<template> 
+			<random>
+				<li> 
+					INTELIGENCIA COMPUTACIONAL:
+
+					Inteligencia Computacional (IC) es una rama de la inteligencia artificial centrada en el estudio de mecanismos adaptativos para permitir el comportamiento inteligente de sistemas complejos y cambiantes. Se presenta como una alternativa a la GOFAI ("Good Old-Fashioned Artificial Intelligence"), tratando de no confiar en algoritmos heurísticos tan habituales en la Inteligencia Artificial más tradicional. Dentro de la Inteligencia Computacional podemos encontrar técnicas como las Redes Neuronales, Computación Evolutiva, Swarm Intelligence, Sistemas Inmunes Artificiales o Sistemas difusos. También se relaciona con técnicas como los Fractales, Teoría del Caos, Wavelets, Autómata celular, etc.
+
+
+				</li>
+
+				<li> 
+					INTELIGENCIA COMPUTACIONAL:
+
+					Inteligencia Computacional es una colección de paradigmas computacionales con inspiración biológica y lingüística, en los cuales se incluye la teoría, el diseño, la aplicación y el desarrollo de redes neuronales, sistemas coneccionistas, algoritmos evolutivos, sistemas difusos y sistemas inteligentes híbridos.
+					Recientemente, se han incluidos nuevas áreas tales como: desarrollo mental autónomo, bioinformática y bioingeniería, y finanzas y economía computacional.
+
+				</li>
+
+				<li> 
+					INTELIGENCIA COMPUTACIONAL:
+
+					(IC) es una rama de la inteligencia artificial centrada en el estudio de mecanismos adaptativos para permitir el comportamiento inteligente de sistemas complejos y cambiantes.
+
+				</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* NEURONALES</pattern>
+		<template> 
+			<random>
+				<li> 
+					REDES NEURONALES:
+
+					Las redes de neuronas artificiales (denominadas habitualmente como RNA o en inglés como: "ANN"1 ) son un paradigma de aprendizaje y procesamiento automático inspirado en la forma en que funciona el sistema nervioso de los animales. Se trata de un sistema de interconexión de neuronas que colaboran entre sí para producir un estímulo de salida. En inteligencia artificial es frecuente referirse a ellas como redes de neuronas o redes neuronales.
+
+				</li>
+
+				<li> 
+					REDES NEURONALES:
+
+					Las redes de neuronas artificiales son un paradigma de aprendizaje y procesamiento automático inspirado en la forma en que funciona el sistema nervioso de los animales. Se trata de un sistema de interconexión de neuronas que colaboran entre sí para producir un estímulo de salida.
+
+				</li>
+
+				<li> 
+					REDES NEURONALES:
+
+					Una red neuronal es un sistema compuesto de muchos elementos procesadores simples operando en paralelo, cuya funci�n es determinada por la estructura de la red, fuerza en las conexiones y el procesamiento realizado por los elementos computacionales en los nodos."
+					Dr. Haykin, S. (1994, Neural Networks: A comprehensive foundation, NY, McMillan, P.2):
+					"Una red neuronal es un procesamiento distribuido masivamente paralelo que tiene una tendencia natural para almacenar conocimiento emp�rico y hacerlo disponible para el uso.
+
+				</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* DIFUSA</pattern>
+		<template> 
+			<random>
+				<li> 
+					LOGICA DIFUSA:
+
+					La lógica difusa (también llamada lógica borrosa) se basa en lo relativo de lo observado como posición diferencial. Este tipo de lógica toma dos valores aleatorios, pero contextualizados y referidos entre sí. Así, por ejemplo, una persona que mida dos metros es claramente una persona alta, si previamente se ha tomado el valor de persona baja y se ha establecido en un metro. Ambos valores están contextualizados a personas y referidos a una medida métrica lineal.
+
+					Fue formulada en 1965 por el ingeniero y matemático Lotfi Zadeh
+
+				</li>
+
+				<li> 
+					LOGICA DIFUSA:
+
+					La lógica difusa es una de las disciplinas matemáticas que cuenta con mayor número de seguidores en la actualidad  y un número creciente de aplicaciones entre las cuales podemos mencionar: La construcción de artefactos electrónicos de uso doméstico y de entretenimiento, el diseño de dispositivos artificiales de deducción automática, el diseño de  sistemas de diagnóstico  y de  control de complejos procesos industriales, etc. De esta manera la lógica difusa se constituye en una herramienta con un gran potencial para el desarrollo de nuevos métodos o técnicas de la Inteligencia Artificial.
+
+				</li>
+
+				<li> 
+					LOGICA DIFUSA:
+
+					La lógica difusa es una rama de la inteligencia artificial que se funda en el concepto "Todo es cuestión de grado" , lo cual permite manejar información vaga o de difícil especificación si quisiéramos hacer cambiar con esta información el funcionamiento o el estado de un sistema especifico. Es entonces posible con la lógica borrosa gobernar un sistema por medio de reglas de 'sentido común'  las cuales se refieren a cantidades indefinidas.
+					Las reglas involucradas en un sistema borroso, pueden ser aprendidas con sistemas adaptativos que aprenden al ' observar ' como operan las personas los dispositivos reales, o estas reglas pueden también ser formuladas por un experto humano.
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+
+	<category> 
+		<pattern>* ARTIFICIAL</pattern>
+		<template> 
+			<random>
+				<li> 
+					INTELIGENCIA ARTIFICIAL:
+
+					La inteligencia artificial (IA) es un área multidisciplinaria, que a través de ciencias como las ciencias de la computación, la matemática, la lógica y la filosofía, estudia la creación y diseño de sistemas capaces de resolver problemas cotidianos por sí mismas utilizando como paradigma la inteligencia humana.[cita requerida]
+
+					General y amplio como eso, reúne a amplios campos, los cuales tienen en común la creación de máquinas capaces de pensar. En ciencias de la computación se denomina inteligencia artificial a la capacidad de razonar de un agente no vivo.1 2 3 John McCarthy acuñó la expresión «inteligencia artificial» en 1956, y la definió así: “Es la ciencia e ingenio de hacer máquinas inteligentes, especialmente programas de cómputo inteligentes”
+
+				</li>
+
+				<li> 
+					INTELIGENCIA ARTIFICIAL:
+
+					La inteligencia artificial es considerada una rama de la computación y relaciona un fenómeno natural con una analogía artificial a través de programas de computador. La inteligencia artificial puede ser tomada como ciencia si se enfoca hacia la elaboración de programas basados en comparaciones con la eficiencia del hombre, contribuyendo a un mayor entendimiento del conocimiento humano.
+					Si por otro lado es tomada como ingeniería, basada en una relación deseable de entrada-salida para sintetizar un programa de computador. "El resultado es un programa de alta eficiencia que funciona como una poderosa herramienta para quien la utiliza."
+
+				</li>
+
+				<li> 
+					INTELIGENCIA ARTIFICIAL:
+					La inteligencia está vinculada a saber elegir las mejores opciones para resolver algún tipo de problema. Existen diversos tipos de inteligencia según sus atributos y procesos, como la inteligencia operativa, la inteligencia biológica o la inteligencia psicológica.		
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* TURING</pattern>
+		<template> 
+			<random>
+				<li> 
+					MAQUINA DE TURING:
+
+					Una máquina de Turing es un dispositivo que manipula símbolos sobre una tira de cinta de acuerdo a una tabla de reglas. A pesar de su simplicidad, una máquina de Turing puede ser adaptada para simular la lógica de cualquier algoritmo de computador y es particularmente útil en la explicación de las funciones de una CPU dentro de un computador.
+
+					Originalmente fue definida por el matemático inglés Alan Turing como una «máquina automática» en 1936, en la revista Proceedings of the London Mathematical Society,1 La máquina de Turing no está diseñada como una tecnología de computación práctica, sino como un dispositivo hipotético que representa una máquina de computación. Las máquinas de Turing ayudan a los científicos a entender los límites del cálculo mecánico.
+
+				</li>
+
+				<li> 
+					MAQUINA DE TURING:
+
+					Es un dispositivo de reconocimientos de lenguaje, es más general que cualquier autómata finito y cualquier autómata de pila, debido a que ellas pueden reconocer tanto los lenguajes regulares, como los lenguajes independientes de contexto y además muchos otros tipos de lenguajes.
+
+					La máquina de Turing (abreviado MT) tiene, un control finito, una cabeza lectora y una cinta donde puede haber caracteres, y donde eventualmente viene la palabra de entrada.
+
+				</li>
+
+				<li> 
+					MAQUINA DE TURING:
+
+					Una Máquina de Turing es un modelo matemático que consiste en un autómata capaz de implementar cualquier problema matemático expresado por medio de un algoritmo. Dicho esto, alguien podría preguntarse porqué esta sección no se llama Respuestas difíciles a preguntas fáciles, pero no se alarmen. Para poder explicar bien los que es una máquina de Turing y, lo que me interesa más, porqué es tan importante, voy a necesitar que comprendan bien la frase con la que se inicia este artículo. Así que, como dijo aquel, vayamos por partes.
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* DEFREDES</pattern>
+		<template> 
+			<random>
+				<li>
+					1. te puedo decir que es redes
+					2. que es modelo tcp/ip
+					3. que es modelo osi
+					4. que es cable utp
+					5. puedo definir direccionamiento 
+					6. que es cisco
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+	<category> 
+		<pattern>* REDES</pattern>
+		<template> 
+			<random>
+				<li>
+					REDES:
+
+					Una Red es justamente un sistema de comunicación que se da entre distintos equipos para poder realizar una comunicación eficiente, rápida y precisa, para la transmisión de datos de un ordenador a otro, realizando entonces un Intercambio de Información (recordando que una Información es un conjunto ordenado de Datos) y compartiendo también Recursos disponibles en el equipo.
+
+				</li>
+
+				<li>
+					REDES:
+
+					La red informática nombra al conjunto de computadoras y otros equipos interconectados, que comparten información, recursos y servicios. Puede a su vez dividirse en diversas categorías, según su alcance (red de área local o LAN, red de área metropolitana o MAN, red de área amplia o WAN, etc.), su método de conexión (por cable coaxial, fibra óptica, radio, microondas, infrarrojos) o su relación funcional (cliente-servidor, persona a persona), entre otras.
+
+				</li>
+
+				<li>
+					REDES:
+
+					El término genérico "red" hace referencia a un conjunto de entidades (objetos, personas, etc.) conectadas entre sí. Por lo tanto, una red permite que circulen elementos materiales o inmateriales entre estas entidades, según reglas bien definidas.
+
+					red: Conjunto de equipos y dispositivos periféricos conectados entre sí. Se debe tener en cuenta que la red más pequeña posible está conformada por dos equipos conectados.
+					redes: implementación de herramientas y tareas para conectar equipos de manera que puedan compartir recursos en la red.
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* TCP</pattern>
+		<template> 
+			<random>
+				<li>
+					MODELO TCP/IP:
+
+					El modelo TCP/IP es una descripción de protocolos de red desarrollado por Vinton Cerf y Robert E. Kahn, en la década de 1970. Fue implantado en la red ARPANET, la primera red de área amplia (WAN), desarrollada por encargo de DARPA, una agencia del Departamento de Defensa de los Estados Unidos, y predecesora de Internet.
+					A veces se denomina como Internet Model, “modelo DoD” o “modelo DARPA”.
+
+					El modelo TCP/IP describe un conjunto de guías generales de diseño e implementación de protocolos de red específicos para permitir que un equipo pueda comunicarse en una red. TCP/IP provee conectividad de extremo a extremo especificando como los datos deberían ser formateados, direccionados, transmitidos, enrutados y recibidos por el destinatario.
+
+
+				</li>
+
+				<li>
+					MODELO TCP/IP:
+
+					TCP/IP es un conjunto de protocolos. La sigla TCP/IP significa "Protocolo de control de transmisión/Protocolo de Internet" y se pronuncia "T-C-P-I-P". Proviene de los nombres de dos protocolos importantes del conjunto de protocolos, es decir, del protocolo TCP y del protocolo IP.
+					En algunos aspectos, TCP/IP representa todas las reglas de comunicación para Internet y se basa en la noción de dirección IP, es decir, en la idea de brindar una dirección IP a cada equipo de la red para poder enrutar paquetes de datos.
+
+
+				</li>
+
+				<li>
+					MODELO TCP/IP:
+
+					El TCP/IP es la base de Internet, y sirve para comunicar todo tipo de dispositivos, computadoras que utilizan diferentes sistemas operativos, minicomputadoras y computadoras centrales sobre redes de área local (LAN) y área extensa (WAN). TCP/IP fue desarrollado y demostrado por primera vez en 1972 por el departamento de defensa de los Estados Unidos, ejecutándolo en ARPANET, una red de área extensa del departamento de defensa.
+
+					EL MODELO TCP/IP esta compuesto por cuatro capas o niveles, cada nivel se encarga de determinados aspectos de la comunicación y a su vez brinda un servicio especifico a la capa superior. Estas capas son:
+
+					1. Aplicación
+					2. Transporte
+					3. Internet
+					4. Acceso a Red
+					
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+	<category> 
+		<pattern>* OSI</pattern>
+		<template> 
+			<random>
+				<li>
+					MODELO OSI:
+
+					El modelo de interconexión de sistemas abiertos (ISO/IEC 7498-1), más conocido como “modelo OSI” (en inglés, Open System Interconnection), es el modelo de red descriptivo, que fue creado en el año 1980 por la Organización Internacional de Normalización (ISO, International Organization for Standardization).1
+
+					Es un marco de referencia para la definición de arquitecturas en la interconexión de los sistemas de comunicaciones.
+
+				</li>
+
+				<li>
+					OSI:
+
+					MODELO OSI
+
+					El Modelo OSI divide en 7 capas el proceso de transmisión de la información entre equipo informáticos, donde cada capa se encarga de ejecutar una determinada parte del proceso global.
+					El modelo OSI abarca una serie de eventos importantes:
+
+					-el modo en q los datos se traducen a un formato apropiado para la arquitectura de red q se esta utilizando
+					- El modo en q las computadoras u otro tipo de dispositivo de la red se comunican. Cuando se envíen datos tiene q existir algún tipo de mecanismo q proporcione un canal de comunicación entre el remitente y el destinatario.
+					- El modo en q los datos se transmiten entre los distintos dispositivos y la forma en q se resuelve la secuenciación y comprobación de errores
+					- El modo en q el direccionamiento lógico de los paquetes pasa a convertirse en el direccionamiento físico q proporciona la red
+
+				</li>
+
+				<li>
+					OSI:
+
+					MODELO OSI
+
+					Las dos únicas capas del modelo con las que de hecho, interactúa el usuario son la primera capa, la capa Física, y la ultima capa, la capa de Aplicación, 
+					La capa física abarca los aspectos físicos de la red (es decir, los cables, hubs y el resto de dispositivos que conforman el entorno físico de la red). Seguramente ya habrá interactuado mas de una vez con la capa Física, por ejemplo al ajustar un cable mal conectado. 
+					La capa de aplicación proporciona la interfaz que utiliza el usuario en su computadora para enviar mensajes de correo electrónico 0 ubicar un archive en la red.
+
+					7. Aplicación
+					6. Presentación
+					5. Sesión
+					4. Transporte
+					3. Red	
+					2. Enlace de datos
+					1. Físico
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+	<category> 
+		<pattern>* UTP</pattern>
+		<template> 
+			<random>
+				<li>
+					CABLE UTP:
+
+					Un cable es un cordón que está resguardado por alguna clase de recubrimiento y que permite conducir electricidad o distintos tipos de señales. Los cables suelen estar confeccionados con aluminio o cobre.
+					UTP, por otra parte, es una sigla que significa Unshielded Twisted Pair (lo que puede traducirse como “Par trenzado no blindado”). El cable UTP, por lo tanto, es una clase de cable que no se encuentra blindado y que suele emplearse en las telecomunicaciones.
+
+				</li>
+
+				<li>
+					CABLE UTP:
+
+					El nombre correcto es cable de par trenzado, esto es debido a que se trata de una funda plástica externa blindada ó no blindada, que contiene un conjunto de 8 cables que se encuentran trenzados entre sí de dos en dos, básicamente de la forma blanco/verde - verde, blanco/naranja - naranja, blanco/café - café y blanco/azul -azul, lo anterior no indica que al momento de su uso sea del mismo modo, sino que se combinan según las necesidades. Este cable permite ser utilizado para la transmisión de datos en las redes informáticas, así como de señales telefónicas. 
+
+				</li>
+
+				<li>
+					CABLE UTP:
+
+					UTP, acrónimo inglés de Unshielded Twister Pair, o par trenzado sin apantallar, es un tipo de cable que se utiliza en las telecomunicaciones y redes informáticas. Se compone de un número heterogéneo de cables de cobre trenzados formando pares. Se diferencia de los pares trenzados apantallados y de pantalla global en que los pares individuales carecen de una protección adicional ante las interferencias. Cada cable de cobre está aislado, y los grupos de pares trenzados llevan un revestimiento que los mantiene unidos, pero carecen de cualquier otro tipo de aislamiento. El UTP se presenta en diferentes tipos y tamaños, y se utiliza principalmente en cables de nodos, lo que significa que circula desde una unidad central hasta cada componente individual de la red.
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* DIRECCIONAMIENTO</pattern>
+		<template> 
+			<random>
+				<li>
+					DIRECCIONAMIENTO:
+
+					Cuando un proceso de aplicación desea establecer una conexión con un proceso de aplicación remoto, debe especificar a cuál debe conectarse, ya sea con transporte con conexión o sin conexión. El método que se emplea es definir direcciones de transporte en las que los procesos pueden estar a la escucha de solicitudes de conexión. Se usará el término neutral TSAP (Transport Service Acces Point, punto de acceso al servicio de transporte). Los puntos terminales análogos de la capa de red se llaman NSAP (Network Service Access Point, puntos de acceso al servicio de red), como por ejemplo las direcciones IP.
+
+				</li>
+
+				<li>
+					DIRECCIONAMIENTO:
+
+					Una dirección IP es un número de identificación de un ordenador o de una red (subred) - depende de la máscara que se utiliza. Dirección IP es una secuencia de unos y ceros de 32 bits expresada en cuatro octetos (4 byte)separados por puntos. Para hacer más comprensible se denomina en decimal como cuatro numeros separados por puntos.
+
+					en binario 10101100.00011000.00000111.00101011
+					en decimal 172.24.7.43
+					Dirección IP privada identifica el equipo dentro de una red LAN - Local Area Networks - dentro de una empresa o red doméstica.
+					Dirección IP pública identifica el equipo en internet. Es única - no se puede repetir.
+					Una dirección IP consta de dos partes. Primera parte identifica dirección de la rde y la segunda sirve para identificar los equipos en la red. Para saber que rango de bits coresponde para cada parte se utiliza la máscara. 
+					Máscara es combinación de 32 bits expresados en cuatro octetos (4 byte) separados por puntos. Es utilizada para describir cuál es la porción de una dirección IP que se refiere a la red o subred y cuál es la que se refiere al host. La máscara se utiliza para extraer información de red o subred de la dirección IP.
+
+				</li>
+
+				<li>
+					DIRECCIONAMIENTO:
+
+					El direccionamiento es una función clave de los protocolos de capa de Red que permite la transmisión de datos entre
+					hosts de la misma red o en redes diferentes. El Protocolo de Internet versión 4 (Ipv4) ofrece direccionamiento jerárquico para paquetes que transportan datos.
+					Diseñar, implementar y administrar un plan de direccionamiento Ipv4 efectivo asegura que las redes puedan operar de
+					manera eficaz y eficiente.
+
+				</li>
+			</random>
+		</template>
+	</category>
+
+
+
+
+	<category> 
+		<pattern>* CISCO</pattern>
+		<template> 
+			<random>
+				<li>
+					CISCO:
+
+					Cisco Systems es una empresa global con sede en San José,1 (California, Estados Unidos), principalmente dedicada a la fabricación, venta, mantenimiento y consultoría de equipos de telecomunicaciones tales como:
+
+					Dispositivos de conexión para redes informáticas: routers (enrutadores, encaminadores o ruteadores), switches (conmutadores) y hubs (concentradores);
+					Dispositivos de seguridad como Cortafuegos y Concentradores para VPN;
+					Productos de telefonía IP como teléfonos y el CallManager (una PBX IP);
+					Software de gestión de red como CiscoWorks, y
+					Equipos para redes de área de almacenamiento.
+
+				</li>
+
+				<li>
+					CISCO:
+
+					Cisco Networking Academy es una iniciativa educativa innovadora que pretende crear un conjunto de especialistas en redes informáticas y mejorar las oportunidades económicas y profesionales en todo el mundo.
+
+					Con más de 10.000 academias en más de 165 países, este exitoso programa de redes informáticas ofrece instrucción fundamental en comunicaciones y tecnología para los profesionales de todo el mundo. Iniciado en 1997, el programa ofrece una valiosa instrucción en redes informáticas basándose en una alianza de éxito entre Cisco, organizaciones educativas, empresas, gobiernos y comunidades.
+
+					Cisco considera Internet y la educación como uno de los grandes factores igualitarios del próximo siglo. La escasez de medios educativos apoyados por Internet y de trabajadores bien capacitados en las redes informáticas plantean varios dilemas a nivel mundial.
+
+				</li>
+
+			</random>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>* UNIVERSIDAD</pattern>
+		<template> 
+			<random>
+				<li>la uptc te brinda un gran contenido y enseñanza en cuanto a ingenieria de sistemas</li>
+				<li>la uptc tiene acreditacion de alta calidad y la ingenieria de sistemas es una excelente opcion</li>
+
+
+			</random>
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>* UPTC</pattern>
+		<template> 
+			<random>
+				<li>En la búsqueda de la excelencia educativa el Centro busca brindar a la comunidad educativa upetecista y regional asesoría integral en las áreas psicopedagógica, psicoafectiva y de rehabilitación social desde la prevención e intervención, con el propósito de fortalecer el ejercicio de la libertad, la autonomía, la autoestima, el autoaprendizaje, y los valores fundamentales que propicien el equilibrio personal y favorezcan el desarrollo de las potencialidades en beneficio de una mejor calidad de vida.	
+				</li>
+			</random>
+			</template>		
+
+		</category>				
+
+		<category>
+			<pattern>* GRACIAS</pattern>
+			<template> 
+				<random>
+					<li>con gusto es un placer contarte que mas enfoques tiene la ingenieria de sistemas</li>
+					<li>es un placer poder ayudarte y brindarte informacion acerca de ingenieria de sistemas</li>
+					<li>espero te sea de gran ayuda esta informacion</li>
+					
+				</random>
+			</template>
+		</category>
+
+	</aiml>
